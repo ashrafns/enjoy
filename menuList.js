@@ -67,11 +67,11 @@ for (menu of shawarma_meat){
     var product = `<div class="col-lg-6 row g-3">
                         <div class="d-flex h-100">
                             <div class="flex-shrink-0">
-                                <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 150px; height:77%">
+                                <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:70%">
                                 <h4 style="background: gray !important;" class="bg-dark text-primary p-2 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h4>
                             </div>
                             <div class="d-flex flex-column w-100 justify-content-center bg-secondary border-inner px-4">
-                                <h5 class="text-uppercase">${menu.product_t}</h5>
+                                <h6 class="text-uppercase">${menu.product_t}</h6>
                                 <span>${menu.product_b}</span>
                                 <h6 class="d-flex  justify-content-center mt-2">kcal ${menu.product_K}</h6>
                             </div>
