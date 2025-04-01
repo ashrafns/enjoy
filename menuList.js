@@ -76,12 +76,12 @@ for (menu of shawarma_meat) {
                         <div class="d-flex h-75">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
-                                <h4 style="background: gray !important;" class="bg-dark text-primary p-1 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h4>
+                                <h5 style="background: gray !important;" class="bg-dark text-primary p-1 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h5>
                             </div>
                             <div class="d-flex flex-column w-100 justify-content-center bg-secondary border-inner px-4">
-                                <h6 class="text-uppercase">${menu.product_t}</h6>
-                                <span>${menu.product_b}</span>
-                                <h6 class="d-flex  justify-content-center mt-2">kcal ${menu.product_K}</h6>
+                                <h6 class="text-uppercase text-white m-1">${menu.product_t}</h6>
+                                <span style="font-weight: 500; color: black; font-size: 14px;">${menu.product_b}</span>
+                                <h6 class="d-flex  justify-content-center">kcal ${menu.product_K}</h6>
                             </div>
                         </div>
                     </div>`;
