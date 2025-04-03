@@ -72,16 +72,16 @@ var shawarma_meat = [
 ];
 document.getElementById("shawarma_meat").innerHTML = "";
 for (menu of shawarma_meat) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0">
-                        <div class="d-flex h-75">
+  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+                        <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
-                                <h5 style="background: #f4f0ca !important;" class="bg-dark text-primary p-1 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h5>
+                                <h5 style="background: #fff !important;" class="bg-dark text-primary p-1 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h5>
                             </div>
-                            <div class="d-flex flex-column w-100 justify-content-center bg-secondary border-inner px-4">
-                                <h6 class="text-uppercase  m-1" style="color: #bd2026;">${menu.product_t}</h6>
+                            <div class="d-flex flex-column w-100 justify-content-center bg-secondary  px-4">
+                                <h6 class="text-uppercase  m-0" style="color: #bd2026;">${menu.product_t}</h6>
                                 <span style="font-weight: 500; color: #bd2026; font-size: 14px;">${menu.product_b}</span>
-                                <h6 class="d-flex mt-1 justify-content-center">kcal ${menu.product_K}</h6>
+                                <h6 class="d-flex mt-0 justify-content-center">kcal ${menu.product_K}</h6>
                             </div>
                         </div>
                     </div>`;
@@ -544,7 +544,7 @@ var Hot_Appetizers_Section = [
     {
       product_t: "ورق عـــنب 10ح ",
       product_b: "Grape Leaves 10p",
-      product_img: "img/new/ورق عـــنب 10ح .png",
+      product_img: "img/new/ورق عـــنب 10ح.png",
       product_P: "18",
       product_K: "250",
     },
@@ -689,7 +689,7 @@ var Pastries = [
     {
       product_t: " كـــيلو مـــجرمشة مع الخـــضار",
       product_b: "Majramish with Vegetables (Kilo)",
-      product_img: "img/new/ كـــيلو مـــجرمشة مع الخـــضار.png",
+      product_img: "img/new/كـــيلو مـــجرمشة مع الخـــضار.png",
       product_P: "170",
       product_K: "3640",
     },
@@ -710,14 +710,14 @@ var Pastries = [
     {
       product_t: " كـــيلو صـــفيحة دبـــس رمـــان",
       product_b: "Pomegranate Molasses Sfeeha (Half Kilo)",
-      product_img: "img/new/ كـــيلو صـــفيحة دبـــس رمـــان.png",
+      product_img: "img/new/كـــيلو صـــفيحة دبـــس رمـــان.png",
       product_P: "140",
       product_K: "3400",
     },
     {
       product_t: "صـــفيحة بـــندورة - وجـــبة",
       product_b: " Tomato Sfeeha (Meal)",
-      product_img: "img/new/صـــفيحة بـــندورة - وجـــبة.png",
+      product_img: "img/new/نـــصف كـــيلو صـــفيحة بـــندورة.png",
       product_P: "35",
       product_K: "280",
     },
