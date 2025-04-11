@@ -72,7 +72,7 @@ var shawarma_meat = [
 ];
 document.getElementById("shawarma_meat").innerHTML = "";
 for (menu of shawarma_meat) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
                         <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -169,7 +169,7 @@ var Chicken_Shawarma = [
 ];
 document.getElementById("Chicken_Shawarma").innerHTML = "";
 for (menu of Chicken_Shawarma) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
                         <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -441,7 +441,7 @@ var Grills_Section = [
 ];
 document.getElementById("Grills_Section").innerHTML = "";
 for (menu of Grills_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
   <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
       <div class="flex-shrink-0">
           <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -496,7 +496,7 @@ var Hot_Appetizers_Section = [
 ];
 document.getElementById("Hot_Appetizers_Section").innerHTML = "";
 for (menu of Hot_Appetizers_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -586,7 +586,7 @@ var Cold_Appetizers_Section = [
 ];
 document.getElementById("Cold_Appetizers_Section").innerHTML = "";
 for (menu of Cold_Appetizers_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -620,7 +620,7 @@ var Hot_Section = [
 ];
 document.getElementById("Hot_Section").innerHTML = "";
 for (menu of Hot_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -885,7 +885,7 @@ var Pastries = [
 ];
 document.getElementById("Pastries").innerHTML = "";
 for (menu of Pastries) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -989,7 +989,7 @@ var Western_Food = [
 ];
 document.getElementById("Western_Food").innerHTML = "";
 for (menu of Western_Food) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -1079,7 +1079,7 @@ var Drinks = [
 ];
 document.getElementById("Drinks").innerHTML = "";
 for (menu of Drinks) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
