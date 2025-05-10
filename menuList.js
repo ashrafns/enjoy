@@ -1116,7 +1116,7 @@ var Offers = [
     product_P: "25",
     product_K: "170",
   },{
-    product_t: "تنين ســانـدوتش شـــاورما دجـــاج (شامي) ",
+    product_t: "تـنـتـيـن ســانـدوتش شـــاورما دجـــاج (شـامي) ",
     product_b: "مع واحد بــيـبـسـي",
     product_img: "img/ENJOY.png",
     product_P: "22",
