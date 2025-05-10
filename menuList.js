@@ -72,7 +72,7 @@ var shawarma_meat = [
 ];
 document.getElementById("shawarma_meat").innerHTML = "";
 for (menu of shawarma_meat) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
                         <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -169,7 +169,7 @@ var Chicken_Shawarma = [
 ];
 document.getElementById("Chicken_Shawarma").innerHTML = "";
 for (menu of Chicken_Shawarma) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
                         <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
                             <div class="flex-shrink-0">
                                 <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -441,7 +441,7 @@ var Grills_Section = [
 ];
 document.getElementById("Grills_Section").innerHTML = "";
 for (menu of Grills_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
   <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
       <div class="flex-shrink-0">
           <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -496,7 +496,7 @@ var Hot_Appetizers_Section = [
 ];
 document.getElementById("Hot_Appetizers_Section").innerHTML = "";
 for (menu of Hot_Appetizers_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -559,21 +559,21 @@ var Cold_Appetizers_Section = [
     product_t: "حـــمص",
     product_b: "Hummus",
     product_img: "img/new/حـــمص.png",
-    product_P: "12",
+    product_P: "15",
     product_K: "490",
   },
   {
     product_t: "بـــابا غـــنوج",
     product_b: "Baba Ghanoush",
     product_img: "img/new/بـــابا غـــنوج.png",
-    product_P: "12",
+    product_P: "15",
     product_K: "120",
   },
   {
     product_t: "مـــتبّل",
     product_b: "Mutabal",
     product_img: "img/new/مـــتبّل.png",
-    product_P: "12",
+    product_P: "15",
     product_K: "145",
   },
   {
@@ -586,7 +586,7 @@ var Cold_Appetizers_Section = [
 ];
 document.getElementById("Cold_Appetizers_Section").innerHTML = "";
 for (menu of Cold_Appetizers_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -620,7 +620,7 @@ var Hot_Section = [
 ];
 document.getElementById("Hot_Section").innerHTML = "";
 for (menu of Hot_Section) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -885,7 +885,7 @@ var Pastries = [
 ];
 document.getElementById("Pastries").innerHTML = "";
 for (menu of Pastries) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -989,7 +989,7 @@ var Western_Food = [
 ];
 document.getElementById("Western_Food").innerHTML = "";
 for (menu of Western_Food) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -1079,7 +1079,7 @@ var Drinks = [
 ];
 document.getElementById("Drinks").innerHTML = "";
 for (menu of Drinks) {
-  var product = `<div class="col-lg-2 row g-3 m-0 p-0 border-inner">
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
     <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
         <div class="flex-shrink-0">
             <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
@@ -1094,4 +1094,49 @@ for (menu of Drinks) {
 </div>`;
   document.getElementById("Drinks").innerHTML += product;
 }
-// ======================= ================================================================
+// ======================= Offer ================================================================
+
+var Offers = [
+  {
+    product_t: "نــــــصف دجــــــاج عالفـــــحم  ",
+    product_b: "  مـع الأرز مع واحد بــيـبـسـي",
+    product_img: "img/new/دجاج copy 3.jpg",
+    product_P: "22",
+    product_K: "170",
+  }, {
+    product_t: "شــــــيش طـــــاووق ",
+    product_b: "مع الأرز مع واحد بــيـبـسـي",
+    product_img: "img/new/شيشcopy 3.jpg",
+    product_P: "22",
+    product_K: "170",
+  },{
+    product_t: "كـباب لحم ",
+    product_b: "مع الأرز مع واحد بــيـبـسـي",
+    product_img: "img/ENJOY.png",
+    product_P: "25",
+    product_K: "170",
+  },{
+    product_t: "تنين ســانـدوتش شـــاورما دجـــاج (شامي) ",
+    product_b: "مع واحد بــيـبـسـي",
+    product_img: "img/ENJOY.png",
+    product_P: "22",
+    product_K: "170",
+  },
+];
+document.getElementById("Offer").innerHTML = "";
+for (menu of Offers) {
+  var product = `<div class="col-lg-4 row g-3 m-0 p-0 border-inner">
+    <div class="d-flex h-7" style="padding: 0 11px; margin-bottom: 11px;">
+        <div class="flex-shrink-0">
+            <img class="img-fluid" src="${menu.product_img}" alt="" style="width: 100px; height:67%">
+            <h5 style="background: #fff !important;" class="bg-dark text-primary p-1 m-0"><span> <img class="img-fluid mx-2" src="img/OIP-removebg-preview.png" style="width: 15px;"></span>${menu.product_P}</h5>
+        </div>
+        <div class="d-flex flex-column w-100 justify-content-center bg-secondary  px-4">
+            <h6 class="text-uppercase  m-0" style="color: #bd2026;">${menu.product_t}</h6>
+            <span style="font-weight: 500; color: #bd2026; font-size: 14px;">${menu.product_b}</span>
+            <h6 class="d-flex mt-0 justify-content-center">kcal ${menu.product_K}</h6>
+        </div>
+    </div>
+</div>`;
+  document.getElementById("Offer").innerHTML += product;
+}
