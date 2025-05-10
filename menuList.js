@@ -1103,6 +1103,8 @@ var Offers = [
     product_img: "img/new/دجاج copy 3.jpg",
     product_P: "22",
     product_K: "170",
+
+    
   }, {
     product_t: "شــــــيش طـــــاووق ",
     product_b: "مع الأرز مع واحد بــيـبـسـي",
