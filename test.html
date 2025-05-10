@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ENJOY restaurant</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/ENJOY.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        background: black;
+        /* display: flex; */
+        justify-content: center;
+        width: max-content;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+      }
+
+      .nav-item {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .nav-item.active {
+        /* transform: scale(1.11); */
+        background: #bd2026;
+      }
+
+      .section {
+        margin-top: 15px; /* To prevent content from being hidden behind the navbar */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid bg-dark d-fixed ">
+      <nav id="navbar ">
+        <ul
+          class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase border-inner p-2 mb-1"
+          style="flex-wrap: nowrap; width: fit-content"
+        >
+          <li class="nav-item" id="section01" data-section="section1">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-1"
+              >شـــاورما لـــحم</a
+            >
+          </li>
+          <li class="nav-item" id="section02" data-section="section2">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-2"
+              >شـــاورما دجـــاج</a
+            >
+          </li>
+          <li class="nav-item" id="section03" data-section="section3">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-3"
+              >قـــسم المـــشويّات</a
+            >
+          </li>
+          <li class="nav-item" id="section04" data-section="section4">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-4"
+              >قـــسم المـــقبّلات السّــــاخنة</a
+            >
+          </li>
+          <li class="nav-item" id="section05" data-section="section5">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-5"
+              >قـــسم المـــقبّلات البـــاردة</a
+            >
+          </li>
+          <li class="nav-item" id="section06" data-section="section6">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-6"
+              >قـــسم السّـــاخن</a
+            >
+          </li>
+          <li class="nav-item" id="section07" data-section="section7">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-7"
+              >المـــعجّنات</a
+            >
+          </li>
+          <li class="nav-item" id="section08" data-section="section8">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-8"
+              >وجـــبات غـــربيّة</a
+            >
+          </li>
+          <li class="nav-item" id="section09" data-section="section9">
+            <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-9"
+              >مـــشروبات</a
+            >
+          </li>
+        </ul>
+        <!-- <ul>
+        <li class="nav-item" data-section="section1">Section 1</li>
+        <li class="nav-item" data-section="section2">Section 2</li>
+        <li class="nav-item" data-section="section3">Section 3</li>
+      </ul> -->
+      </nav>
+    </div>
+    <div class="tab-content container">
+      <div
+        class="section-title position-relative text-center mx-auto mt-5 pt-5 mb-5 pb-3"
+      >
+        <h2 class="text-primary font-secondary">Menu & Pricing</h2>
+        <h1 class="display-4 text-uppercase">ENJOY restaurant</h1>
+        <h3 class="text-primary font-secondary">
+          The authentic damascus taste
+        </h3>
+        <h3 class="text-uppercase font-secondary">
+          إنجوي الطعم الدمشقي الأصيل
+        </h3>
+      </div>
+      
+      <div id="section1" class="section">
+        <h2 class="mt-3">شـــاورما لـــحم</h2>
+      <hr class="mb-5" />
+        <div id="tab-1" class="tab-pane fade show p-0">
+          <div id="shawarma_meat" class="row g-3">
+            <div class="col-lg-3">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section2" class="section">
+      <h2 class="mt-3">شـــاورما دجـــاج</h2>
+      <hr class="mb-5" />
+        <div id="tab-2" class="tab-pane fade show p-0">
+          <div id="Chicken_Shawarma" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section3" class="section">
+      <h2 class="mt-3">قـــسم المـــشويّات</h2>
+      <hr class="mb-5" />
+        <div id="tab-3" class="tab-pane fade show p-0">
+          <div id="Grills_Section" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section4" class="section">
+      <h2 class="mt-3">قـــسم المـــقبّلات السّــــاخنة</h2>
+      <hr class="mb-5" />
+        <div id="tab-4" class="tab-pane fade show p-0">
+          <div id="Hot_Appetizers_Section" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section5" class="section">
+      <h2 class="mt-3">قـــسم المـــقبّلات البـــاردة</h2>
+      <hr class="mb-5" />
+        <div id="tab-5" class="tab-pane fade show p-0">
+          <div id="Cold_Appetizers_Section" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section6" class="section">
+      <h2 class="mt-3">قـــسم السّـــاخن</h2>
+      <hr class="mb-5" />
+        <div id="tab-6" class="tab-pane fade show p-0">
+          <div id="Hot_Section" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Custom Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section7" class="section">
+      <h2 class="mt-3">المـــعجّنات</h2>
+      <hr class="mb-5" />
+        <div id="tab-7" class="tab-pane fade show p-0">
+          <div id="Pastries" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section8" class="section">
+      <h2 class="mt-3">وجـــبات غـــربيّة</h2>
+      <hr class="mb-5" />
+        <div id="tab-8" class="tab-pane fade show p-0">
+          <div id="Western_Food" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section9" class="section">
+      <h2 class="mt-3">مـــشروبات</h2>
+      <hr class="mb-5" />
+        <div id="tab-9" class="tab-pane fade show p-0">
+          <div id="Drinks" class="row g-3">
+            <div class="col-lg-6">
+              <div class="d-flex h-100">
+                <div class="flex-shrink-0">
+                  <img
+                    class="img-fluid"
+                    src="img/ENJOY.png"
+                    alt=""
+                    style="width: 150px; height: 85px"
+                  />
+                  <h4 class="bg-dark text-primary p-2 m-0">$99.00</h4>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4"
+                >
+                  <h5 class="text-uppercase">Wedding Cake</h5>
+                  <span
+                    >Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam
+                    stet sit justo</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const sections = document.querySelectorAll(".section");
+      const navItems = document.querySelectorAll(".nav-item");
+
+      window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+
+          if (pageYOffset >= (sectionTop - sectionHeight / 10)) {
+            current = section.getAttribute("id");
+            console.log(current)
+            
+          }
+        });
+        // transform: translateX(-822px);
+        navItems.forEach((item) => {
+          item.classList.remove("active");
+          if (item.getAttribute("data-section") === current) {
+            item.classList.add("active");
+            // Center the active item
+            const navWidth = navItems.length * item.offsetWidth;
+            const itemIndex = Array.from(navItems).indexOf(item);
+            const offset =
+              (itemIndex - Math.floor(navItems.length / 4)) * item.offsetWidth;
+            document.querySelector(
+              "nav"
+            ).style.transform = `translateX(-${offset}px)`;
+            console.log(offset  + 20 );
+          }
+        });
+      });
+      document
+        .getElementById("section01")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section1")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section02")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section2")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section03")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section3")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section04")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section4")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section05")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section5")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section06")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section6")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section07")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section7")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section08")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section8")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("section09")
+        .addEventListener("click", function () {
+          document
+            .getElementById("section9")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+        
+    </script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="menuList.js"></script>
+  </body>
+</html>
